@@ -1,0 +1,7 @@
+datasources:ccbc2571a5e0caa6eebb0eba8fafe0e19d9e1445
+commandlineoptions:a09b01d50e698abf0d9cd801013d59d1188257de
+suitesfrom:no-suites-from-option
+file:9af8daabbdf74f5b59e715aa318bb9f4843723ee
+--suite Full Regresssion in Parallel.AlertTS
+--suite Full Regresssion in Parallel.FirstSample
+--suite Full Regresssion in Parallel.HighLevelTS

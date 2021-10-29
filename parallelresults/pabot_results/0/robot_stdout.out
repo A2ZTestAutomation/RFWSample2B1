@@ -1,0 +1,17 @@
+==============================================================================
+Full Regresssion in Parallel                                                  
+==============================================================================
+Full Regresssion in Parallel.AlertTS                                          
+==============================================================================
+Handle SimpleAlert                                                    Press a button!
+| PASS |
+------------------------------------------------------------------------------
+Full Regresssion in Parallel.AlertTS                                  | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Full Regresssion in Parallel                                          | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Output:  F:\Anandhi\workspace\robotframework\RFWSamplesB1\parallelresults\pabot_results\0\output.xml

@@ -1,0 +1,18 @@
+==============================================================================
+parallelTests                                                                 
+==============================================================================
+parallelTests.FirstSample                                                     
+==============================================================================
+Valid LoginTest                                                       You logged into a secure area!
+×
+| PASS |
+------------------------------------------------------------------------------
+parallelTests.FirstSample                                             | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+parallelTests                                                         | PASS |
+1 critical test, 1 passed, 0 failed
+1 test total, 1 passed, 0 failed
+==============================================================================
+Output:  F:\Anandhi\workspace\robotframework\RFWSamplesB1\pabot_results\1\output.xml

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.9.1 on win32)" generated="20211027 12:38:42.145" rpa="false">
+<suite id="s1" name="RFWSamplesB1" source="F:\Anandhi\workspace\robotframework\RFWSamplesB1">
+<suite id="s1-s1" name="appiumSamples" source="F:\Anandhi\workspace\robotframework\RFWSamplesB1\appiumSamples">
+<suite id="s1-s1-s1" name="ChromeTest" source="F:\Anandhi\workspace\robotframework\RFWSamplesB1\appiumSamples\ChromeTest.robot">
+<test id="s1-s1-s1-t1" name="Web App Test Case">
+<kw name="Open Chrome Browser in RealDevice">
+<kw name="Open Application" library="AppiumLibrary">
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |</doc>
+<arguments>
+<arg>${REMOTE_URL}</arg>
+<arg>platformName=${PLATFORM_NAME}</arg>
+<arg>platformVersion=${REAL_AND_VER}</arg>
+<arg>deviceName=${REALDEV_NAME}</arg>
+<arg>automationName=UiAutomator2</arg>
+<arg>newCommandTimeout=3000</arg>
+<arg>browserName=${BROWSER_NAME}</arg>
+</arguments>
+<status status="PASS" starttime="20211027 12:38:42.401" endtime="20211027 12:39:21.493"></status>
+</kw>
+<status status="PASS" starttime="20211027 12:38:42.401" endtime="20211027 12:39:21.493"></status>
+</kw>
+<kw name="Go To Url" library="AppiumLibrary">
+<doc>Opens URL in default web browser.</doc>
+<arguments>
+<arg>https://the-internet.herokuapp.com/login</arg>
+</arguments>
+<status status="PASS" starttime="20211027 12:39:21.493" endtime="20211027 12:39:30.393"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//input[@name="username"]</arg>
+</arguments>
+<status status="PASS" starttime="20211027 12:39:30.394" endtime="20211027 12:39:31.015"></status>
+</kw>
+<kw name="Input Text" library="AppiumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//input[@name="username"]</arg>
+<arg>${username}</arg>
+</arguments>
+<msg timestamp="20211027 12:39:31.021" level="INFO">Typing text 'tomsmith' into text field 'xpath=//input[@name="username"]'</msg>
+<status status="PASS" starttime="20211027 12:39:31.016" endtime="20211027 12:39:31.689"></status>
+</kw>
+<kw name="Input Text" library="AppiumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//input[@name="password"]</arg>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20211027 12:39:31.690" level="INFO">Typing text 'SuperSecretPassword!' into text field 'xpath=//input[@name="password"]'</msg>
+<status status="PASS" starttime="20211027 12:39:31.689" endtime="20211027 12:39:33.028"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//form[@name="login"]/button</arg>
+</arguments>
+<msg timestamp="20211027 12:39:33.029" level="INFO">Clicking element 'xpath=//form[@name="login"]/button'.</msg>
+<status status="PASS" starttime="20211027 12:39:33.028" endtime="20211027 12:39:33.873"></status>
+</kw>
+<status status="PASS" starttime="20211027 12:38:42.400" endtime="20211027 12:39:33.873" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20211027 12:38:42.228" endtime="20211027 12:39:33.874"></status>
+</suite>
+<status status="PASS" starttime="20211027 12:38:42.225" endtime="20211027 12:39:33.876"></status>
+</suite>
+<status status="PASS" starttime="20211027 12:38:42.189" endtime="20211027 12:39:33.877"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="RFWSamplesB1">RFWSamplesB1</stat>
+<stat pass="1" fail="0" id="s1-s1" name="appiumSamples">RFWSamplesB1.appiumSamples</stat>
+<stat pass="1" fail="0" id="s1-s1-s1" name="ChromeTest">RFWSamplesB1.appiumSamples.ChromeTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

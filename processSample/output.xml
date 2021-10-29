@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.9.1 on win32)" generated="20211022 10:59:26.340" rpa="false">
+<suite id="s1" name="RunProcessTS" source="F:\Anandhi\workspace\robotframework\RFWSamplesB1\processSample\RunProcessTS.robot">
+<test id="s1-t1" name="Run python process">
+<kw name="Run Process" library="Process">
+<doc>Runs a process and waits for it to complete.</doc>
+<arguments>
+<arg>python</arg>
+<arg>hello.py</arg>
+</arguments>
+<assign>
+<var>${result}</var>
+</assign>
+<msg timestamp="20211022 10:59:26.377" level="INFO">Starting process:
+python hello.py</msg>
+<msg timestamp="20211022 10:59:26.379" level="INFO">Waiting for process to complete.</msg>
+<msg timestamp="20211022 10:59:26.450" level="INFO">Process completed.</msg>
+<msg timestamp="20211022 10:59:26.450" level="INFO">${result} = &lt;result object with rc 0&gt;</msg>
+<status status="PASS" starttime="20211022 10:59:26.377" endtime="20211022 10:59:26.450"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${result.stdout}</arg>
+</arguments>
+<status status="PASS" starttime="20211022 10:59:26.451" endtime="20211022 10:59:26.451"></status>
+</kw>
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<arguments>
+<arg>${result.stdout}</arg>
+<arg>Hello Welcome</arg>
+</arguments>
+<status status="PASS" starttime="20211022 10:59:26.452" endtime="20211022 10:59:26.452"></status>
+</kw>
+<status status="PASS" starttime="20211022 10:59:26.376" endtime="20211022 10:59:26.453" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20211022 10:59:26.342" endtime="20211022 10:59:26.454"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="RunProcessTS">RunProcessTS</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

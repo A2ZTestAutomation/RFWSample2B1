@@ -1,0 +1,20 @@
+==============================================================================
+Full Regresssion in Parallel                                                  
+==============================================================================
+Full Regresssion in Parallel.FirstSample                                      
+==============================================================================
+Valid LoginTest                                                       You logged into a secure area!
+×
+| PASS |
+------------------------------------------------------------------------------
+Invalid Username LoginTest                                            | PASS |
+------------------------------------------------------------------------------
+Full Regresssion in Parallel.FirstSample                              | PASS |
+2 critical tests, 2 passed, 0 failed
+2 tests total, 2 passed, 0 failed
+==============================================================================
+Full Regresssion in Parallel                                          | PASS |
+2 critical tests, 2 passed, 0 failed
+2 tests total, 2 passed, 0 failed
+==============================================================================
+Output:  F:\Anandhi\workspace\robotframework\RFWSamplesB1\parallelresults\pabot_results\1\output.xml
